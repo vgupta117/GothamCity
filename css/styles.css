@@ -1,0 +1,126 @@
+/* Images used */
+/* http://clipart-library.com/clipart/6cp5bXRoi.htm */
+/* https://en.wikipedia.org/wiki/Gotham_City */
+/* https://www.pinterest.com/pin/233553930655167241/ */
+/* https://in.pinterest.com/pin/619245017489657078/ */
+
+body{
+    background:#14191D;
+}
+
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.wasteSpace{
+    width: 100%;
+    height: 70vh;
+}
+
+#batmanLogo{
+    position: absolute;
+    width: 50%;
+    top: 40%;
+    left: 50.5%;
+    transform: translate(-50%,-45%);
+    z-index: 1;
+}
+.bodyContent{
+    background-image: url('../assets/gothamBackground.jpg');
+    position: absolute;
+    z-index: 100;
+}
+
+
+.center {    
+    margin: 0 auto;
+    margin-top: 2%;
+    width: 80%;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    transition: 500ms;
+}
+
+.initialDescription{
+    font-size: 24px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 40px;
+    padding: 1px
+}
+
+.cards{
+    margin: 0 auto;
+    width: 80%;
+    padding: 10px;
+    color: white;
+    text-align: center;   
+}
+
+.eachCard{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    color: white;
+    width: 15%;
+    height: 40px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 1%;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+/* https://en.wikipedia.org/wiki/Gotham_City#/media/File:Gotham_City_Batman_Vol_3_14.png */
+.selected{
+    /* background-color: rgba(70, 70, 70, 0.8); */
+    background-image: url('../assets/buttonbgEdited.png');
+    opacity: 0.5;
+    color: yellow;
+    font-weight: bold;
+}
+
+.title{
+    background-image: url('../assets/titleBG.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 80px;
+}
+
+.cardContent{
+    padding-top: 3%;
+    font-size: 24px;
+    opacity: 2;
+}
+
+
+.mainBatmanLogo {
+    position: fixed; /* make sure it stays put so we can see it! */
+
+    animation: rotate 1s linear infinite;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+  }
+
+.mainSection {    
+    margin: 0 auto;
+    margin-top: 2%;
+    width: 80%;
+    padding: 10px;
+    color: white;
+    text-align: left;
+    transition: 500ms;
+}
+
+.navCard{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    color: white;
+    width: 15%;
+    height: 40px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 1%;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
